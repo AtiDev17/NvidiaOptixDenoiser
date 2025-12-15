@@ -1,6 +1,6 @@
 # NvidiaOptixDenoiser
 
-A simple, high-performance command-line tool to denoise 3D renders (EXR, PNG, JPG) using NVIDIA's AI-accelerated OptiX Denoiser.
+A simple, high-performance command-line tool to denoise images (EXR, PNG, JPG) using NVIDIA's AI-accelerated OptiX Denoiser.
 
 ## Features
 - **AI-Powered**: Uses NVIDIA OptiX 9+ for superior quality.
