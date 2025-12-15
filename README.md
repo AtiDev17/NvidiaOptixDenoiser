@@ -18,30 +18,17 @@ A simple, high-performance command-line tool to denoise images (EXR, PNG, JPG) u
 
 ## Installation
 
-1. **Install Python Dependencies**
-   ```bash
-   pip install -r requirements-denoiser.txt
-   ```
-   **CuPy** must match your CUDA version. For CUDA 12.x:
-   ```bash
-   pip install cupy-cuda12x
-   ```
-   *(For CUDA 11.x, use `cupy-cuda11x`)*
-
-2. **Install pyoptix**
-   This script requires the `optix` Python module.
-   ```bash
-   # If you have the PyOptiX wheel:
-   pip install optix-0.1.0-cp310-cp310-win_amd64.whl
-   # Prebuilt binaries are here or you can build from source:
-   https://github.com/AtiDev17/otk-pyoptix
-   ```
-   
-3. **Get the Script**
+1. **Get the Script**
    Clone this repository:
    ```bash
    git clone https://github.com/AtiDev17/NvidiaOptixDenoiser.git
    cd NvidiaOptixDenoiser
+   ```
+
+2. **Install Python Dependencies**
+   ```bash
+   It is recommended to create a virtual environment before installing the modules.
+   pip install -r requirements.txt
    ```
 
 ## Usage
