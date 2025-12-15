@@ -33,7 +33,7 @@ A simple, high-performance command-line tool to denoise 3D renders (EXR, PNG, JP
    ```bash
    # If you have the PyOptiX wheel:
    pip install optix-0.1.0-cp310-cp310-win_amd64.whl
-   # Or build from source:
+   # Prebuilt binaries are here or you can build from source:
    https://github.com/AtiDev17/otk-pyoptix
    ```
    
